@@ -1,0 +1,86 @@
+.example::-webkit-scrollbar {
+  display: none;
+}
+
+/* Add this CSS rule to your MenuPage.css or your global CSS file */
+.ant-menu-item:hover .anticon svg,
+.ant-submenu-title:hover .anticon svg {
+  fill: goldenrod; /* Change this to your desired golden color */
+}
+
+.submenu-hover:hover .anticon svg {
+  fill: goldenrod; /* Change this to your desired golden color */
+}
+
+.button-icon:hover svg {
+  color: goldenrod; /* Change this to your desired golden color */
+}
+.ant-menu-submenu-title-selected {
+  color: goldenrod !important;
+}
+.ant-menu-submenu-title:hover {
+  color: goldenrod !important;
+}
+
+li.ant-menu-item:hover {
+  color: goldenrod !important;
+}
+.ant-menu-dark .ant-menu-submenu-selected >.ant-menu-submenu-title{
+  color: goldenrod !important;
+}
+
+li.ant-menu-item.ant-menu-item-selected {
+  color: goldenrod !important;
+}
+
+
+.logout {
+  font-size: 0.8em;
+  font-family: "Oswald", sans-serif;
+  position: relative;
+  overflow: hidden;
+  letter-spacing: 3px;
+  opacity: 0;
+  transition: opacity 0.45s;
+  -webkit-transition: opacity 0.35s;
+}
+
+.icon:hover {
+  width: 100%;
+}
+
+button:hover .logout {
+  opacity: 0.9;
+}
+.icon {
+  width: 40%;
+  border-radius: 5px;
+  float: left;
+  padding-top: 0;
+  padding-bottom: 0;
+  text-align: center;
+  align-items: center;
+  font-size: medium;
+}
+.anticon {
+  vertical-align: 0;
+  justify-content: center;
+}
+
+.ant-menu-item .anticon svg,
+.ant-submenu-title .anticon svg,
+.button-icon svg {
+  width: 24px; /* Set the desired width */
+  height: 24px; /* Set the desired height */
+}
+@media (max-width: 1200px) {
+  .search-bar {
+    display: none;
+  }
+}
+
+@media (max-width: 700px) {
+  .dash-heading {
+    display: none;
+  }
+}

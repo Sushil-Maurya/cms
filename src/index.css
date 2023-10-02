@@ -1,0 +1,79 @@
+body,
+* {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Poppins", sans-serif !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.pagination .page-item.page-indicator .page-link {
+  padding: 0.69rem 0.8rem;
+  font-size: 1.2rem;
+  border-top-left-radius: unset;
+  border-bottom-left-radius: unset;
+  border-radius: 0.625rem;
+}
+/* .pagination .page-item.page-indicator:hover .page-link {
+      color: #6e6e6e; } */
+.pagination .page-item .page-link {
+  z-index: 1;
+  padding: 0;
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 0.625rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1rem;
+  background: rgba(255, 255, 255, 0.15);
+  color: #6e6e6e;
+  margin-left: 7px;
+  border: 0.0625rem solid #e6e6e6;
+}
+[data-theme-version="dark"] .pagination .page-item .page-link {
+  border-color: rgba(255, 255, 255, 0.1);
+  color: #828690;
+  background: rgba(255, 255, 255, 0);
+}
+
+.pagination .page-item .page-link:hover {
+  background: rgb(69, 43, 144);
+  color: #fff;
+  border-color: var(--primary);
+}
+.pagination .page-item .page-indicator:hover {
+  background: rgb(69, 43, 144);
+  color: #fff;
+  border-color: var(--primary);
+}
+.pagination .page-item.active .page-link {
+  background-color: rgb(69, 43, 144);
+  /* border-color: var(--primary); */
+  color: #fff;
+}
+ul {
+  margin: 0 !important;
+}
+
+@media screen and (max-width: 400px) {
+  .pagination .page-item .page-link {
+    z-index: 1;
+    padding: 0;
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 0.425rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.71rem;
+    background: rgba(255, 255, 255, 0.15);
+    color: #6e6e6e;
+    margin-left: 7px;
+    border: 0.0625rem solid #e6e6e6;
+  }
+}

@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap"); /* font-family: 'Poppins', sans-serif; */
+
+.App {
+  margin: 0;
+  font-family: "Poppins", sans-serif !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.span {
+  font-family: "Poppins", sans-serif !important;
+}
+.p {
+  font-family: "Poppins", sans-serif !important;
+}
+.h1 {
+  font-family: "Poppins", sans-serif !important;
+}
+
+/* table {
+  font-family: "Poppins", sans-serif !important;
+   
+} */

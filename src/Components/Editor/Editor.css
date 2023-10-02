@@ -1,0 +1,14 @@
+.ck-content {
+    min-height: 300px !important; 
+    /* resize: vertical; */
+}
+
+.ck.ck-balloon-panel.ck-balloon-panel_position_border-side_right.ck-powered-by-balloon {
+    display: none;
+}
+.ck-editor__editable {
+    resize: vertical;
+    overflow: auto;   
+  }
+
+  
